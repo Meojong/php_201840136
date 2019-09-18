@@ -4,7 +4,7 @@
 // echo $body;
 
 $filename = "for01.php";
-$fp = fopen($filename."r");
+$fp = fopen($filename,"r");
 
 $count = 0;
 while (!feof($fp)){
