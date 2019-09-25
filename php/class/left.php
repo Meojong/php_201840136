@@ -7,7 +7,8 @@
 class left
 {
     public $name;
-
+    //상수 2가지
+    const ENGLISH = "en";
     //메소드
     public function greeting()
     {
