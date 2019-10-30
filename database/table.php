@@ -1,5 +1,8 @@
 <?php
 
+
+
+
 //선언
 class Table
 {
