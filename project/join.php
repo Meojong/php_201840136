@@ -1,6 +1,3 @@
 <?php
-$arr = ['apple'=>"사과", 'banana'=>"바나나"];
-print_r($arr);
-
-$str = json_encode($arr);
-echo $str;
+$text = "{(name)} 입니다";
+echo str_replace('{(name)}', '대림대', $text);

@@ -1,4 +1,14 @@
 <?php
 
-print "안녕하세요.<br>";
-echo "대림대학교 입니다.<br>";
+$loop = true;
+$i = 1;
+while($loop)
+{
+    echo "반복합니다";
+
+    if($i>4)
+        $loop = false; $i++;
+    
+}
+
+?>

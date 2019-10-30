@@ -1,9 +1,10 @@
 <?php
 
-for($i = 1; $i < 10; $i++){
-    if($i%2 == 0){
-        echo "짝수 입니다.";
-    }else{
-        echo $i."홀수 입니다.";
+function multi($num){
+    for($i = 1; $i <= 9; $i++){
+        echo $num ." * ". $i . " = ". $num*$i . "<br>";
     }
+}
+for($l = 2; $l <= 2; $l++){
+    multi($l);
 }

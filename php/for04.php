@@ -1,7 +1,5 @@
 <?php
-
-$files = scandir(".");
-foreach($files as $f){
-    if($f == "." || $f == "..") continue;
-    echo "파일명 = ".$f."\n";
+$name = array();
+foreach($name  $key=>$value){
+    echo "학번 : " . $key", 이름 :".$value."\n";
 }
