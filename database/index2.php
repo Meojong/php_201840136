@@ -7,6 +7,6 @@ $obj3 = Test::make();
 // new Table1;
 $obj1->factory("Table1");
 
-// 게임  ""
+// 게임
 $obj1->strage("칼");
 $obj1->strage("총");

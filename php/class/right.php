@@ -4,13 +4,13 @@ class right
     public $name;
     public function greeting()
     {
-        echo "right hello : ". $this->name . "<br>";
+        echo "right hello : ".$this->name ."<br>";
         return $this;
     }
 
     public function daelim()
     {
-        echo "머림머학교";
+        echo "대림머학교";
         return $this;
     }
 
@@ -19,6 +19,7 @@ class right
         echo "너는 바보야<br>";
         return $this;
     }
+
     public function bar()
     {
         echo "나도 바보야<br>";

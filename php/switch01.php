@@ -1,8 +1,8 @@
 <?php
 
-$n = 2;
+$n =1;
 
-switch($n){
+switch($n) {
     case 1:
         echo "하나";
         break;
@@ -10,7 +10,7 @@ switch($n){
         echo "둘";
         break;
     default:
-        echo "셋";
+    echo "셋";
 }
 
 echo "끝";

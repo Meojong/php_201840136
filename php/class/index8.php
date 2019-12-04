@@ -2,7 +2,7 @@
 
 include "index7.php";
 
-use \Meojong\daelim as bbbb;
+use \minwoo\daelim\aaa;
 
-$obj = new bbbb\aaa;
+$obj = new aaa;
 $obj->hello();

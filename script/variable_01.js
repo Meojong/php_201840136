@@ -1,4 +1,4 @@
-let tem = 20.5;
-let name = `현재 온도는 ${tem} 입니다.`;
+let temp = 20.5;
+const name = "현재온도는 ${temp} 입니다";
 
 console.log(name);

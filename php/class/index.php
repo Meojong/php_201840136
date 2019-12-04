@@ -1,20 +1,23 @@
 <?php
-// include "class01.php";
-// include "class02.php";
-// greeting();
+
+// include "class_01.php";
+// include "class_02.php";
+
+//greeting();
 include "autoload.php";
+
 $obj1 = new left;
+
 $obj1->greeting();
 $obj1->daelim();
 
-// $를 안쓴다.
-$obj1->name = "대림이";
+$obj1->name = "머림이";
 var_dump($obj1);
 echo "<br>";
 
-$property = "name";
-echo $obj1->$property . " 입니다.<br>";
-echo "영어 코드는 = ". $obj1::ENGLISH . "<br>";
+$proerty = "name";
+echo $obj1->$proerty . " 입니다.<br>";
+echo "영어코드는 = ". $obj1::ENGLISH . "<br>";
 
 $obj2 = new right;
 $obj2->name = "머숙이";
@@ -25,7 +28,8 @@ echo "<br>";
 $obj2->daelim();
 $result->daelim();
 
-echo "<br>---<br>";
+//메소드 체인
+echo "---<br>";
 $obj2->greeting()->daelim()->foo()->bar();
 
 echo "---<br>";

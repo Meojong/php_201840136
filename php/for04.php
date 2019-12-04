@@ -1,5 +1,11 @@
 <?php
-$name = array();
-foreach($name  $key=>$value){
-    echo "학번 : " . $key", 이름 :".$value."\n";
+
+$files = scandir(".");
+//print_r($files);
+
+//foreach = for-in / for-of
+
+foreach($files as $f){
+    if($f =="." || $f =="..") continue;
+    echo "파일명=".$f."\n";
 }

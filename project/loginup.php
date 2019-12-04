@@ -1,5 +1,5 @@
 <?php
 session_start();
-$_SESSION["username"] = "대남이";
+$_SESSION["username"] = "머남이";
 
-setcookie("mynum","201840136", time()+(86400*30), "/");
+setcookie("mynum","201840206",time()+(86400*30),"/");

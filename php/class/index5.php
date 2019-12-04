@@ -1,17 +1,16 @@
 <?php
-
 abstract class greeting
-{   
-    //여기는 꼭 만들어야 한다.
+{
+    //이거는 꼭 만들어야 해...
     abstract public function hello();
 
     public function pages()
     {
-        echo "페이지 출력";
+        echo "페이지출력";
     }
 }
 
-// 인터페이스를 구현해서 클래스를 만들어.. 강제명령.
+//인터페이스를 구현해서 클래스를 만들어... 강제명령
 class daelim extends greeting
 {
     public function hello()
@@ -19,6 +18,7 @@ class daelim extends greeting
         echo "그냥 해...";
     }
 }
+
 $obj = new daelim;
 $obj->hello();
 $obj->pages();

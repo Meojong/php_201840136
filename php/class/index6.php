@@ -9,7 +9,7 @@ trait abcd
 {
     public function join()
     {
-        echo "나도 끼워줘..";
+        echo "나도 끼워줘...";
     }
 }
 

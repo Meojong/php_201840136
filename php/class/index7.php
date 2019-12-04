@@ -1,6 +1,6 @@
 <?php
 
-namespace Meojong\daelim;
+namespace minwoo\daelim;
 
 class aaa
 {
